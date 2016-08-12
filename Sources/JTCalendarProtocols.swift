@@ -155,7 +155,7 @@ protocol JTAppleCalendarDelegateProtocol: class {
 
 
 internal protocol JTAppleReusableViewProtocolTrait: class {
-    associatedtype ViewType: UIView
+    typealias ViewType: UIView
     func setupView(cellSource: JTAppleCalendarViewSource)
     var view: ViewType? {get set}
 }
